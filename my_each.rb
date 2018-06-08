@@ -13,5 +13,3 @@ end
 my_each(words) do |i|
   i 
 end 
-
-my_each(tas) 
