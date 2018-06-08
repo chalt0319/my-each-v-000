@@ -9,6 +9,5 @@ def my_each(array)
 end
 
 my_each(words) do |i|
-  i = words[counter]
   i 
 end 
