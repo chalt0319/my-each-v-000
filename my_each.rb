@@ -2,12 +2,12 @@ words = ['hi', 'hello', 'bye', 'goodbye']
 
 def my_each(array)
   while counter < array.length 
+    counter = 0 
     yield
+    counter += 1 
   end
 end
 
 my_each(words) do |i|
-  counter = 0 
-  puts words[counter]
-  counter += 1 
+  puts i 
 end 
