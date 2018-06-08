@@ -6,8 +6,8 @@ def my_each(array)
   while counter < array.length 
     yield array[counter] if block_given?
     counter += 1 
-    array
   end
+  array
 end
 
 my_each(words) do |i|
