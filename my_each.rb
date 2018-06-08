@@ -9,5 +9,5 @@ def my_each(array)
 end
 
 my_each(words) do |i|
-  puts i 
+  i 
 end 
