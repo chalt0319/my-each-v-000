@@ -1,4 +1,5 @@
 words = ['hi', 'hello', 'bye', 'goodbye']
+tas = ['arel', 'jon', 'logan', 'spencer']
 
 def my_each(array)
   counter = 0
@@ -11,3 +12,7 @@ end
 my_each(words) do |i|
   i 
 end 
+
+my_each(tas) do |x|
+  x
+end
